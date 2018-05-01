@@ -1,9 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>TesManis.github.io</title>
-</head>
-<body>
-	<h3>Hello world!</h3>
-</body>
-</html>
+---
+layout: base
+title: Home
+---
+
+<section class="hero is-primary is-fullheight">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar is-transparent">
+      <div class="container">
+        <div id="navbarMenuHero" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="{{ site.baseurl }}/blog/">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Halo...
+      </h1>
+      <h2 class="subtitle">
+        Selamat datang!
+      </h2>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <div class="content has-text-centered">
+      <p>
+        By <strong><a href="{{ site.github.repo }}">{{ site.author.name }}</a></strong>, licensed with <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </div>
+</section>

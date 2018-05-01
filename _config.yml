@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Tes Manis
+tagline:             Tes Manis Page
+url:                 https://tesmanis.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  style:             compressed
+
+# About/contact
+author:
+  name:              Tes Manis
+  url:               https://tesmanis.github.io
+  email:             ""
+
+# Custom vars
+github:
+  repo:              https://github.com/TesManis
+
+#analytics_id:        ""
+
+# Gems
+plugins:
+  - jekyll-paginate
+#  - jekyll-gist

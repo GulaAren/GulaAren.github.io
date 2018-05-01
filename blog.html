@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+---
+
+
+<section class="section">
+  <div class="container">
+    <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
