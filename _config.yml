@@ -1,6 +1,6 @@
 # Permalinks
 permalink:           pretty
-
+excerpt_separator:  <!--more-->
 # Setup
 title:               Tes Manis
 tagline:             Tes Manis Page

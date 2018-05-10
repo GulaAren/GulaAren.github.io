@@ -15,27 +15,27 @@ layout: default
   </header>
 </section>
 
-<section class="section">
+<section class="section bg-grad">
   <div class="container">
-      
-    <div class="content">
+  <div class="columns">
+    <div class="content content-pad column is-three-quarters  has-background-white-ter">
       {{ content }}
     </div>
 
     {% if site.related_posts != empty %}
-    <aside class="related">
-      <h3>Related posts</h3>
-      <ul class="related-posts">
-        {% for post in site.related_posts limit:3 %}
+    <div class="column is-light sidebar-pad">
+      <h3 class="title has-text-white-bis">Lainnya</h3>
+      <ul class="">
+        {% for post in site.related_posts limit:7 %}
           <li>
             <a href="{{ site.baseurl }}{{ post.url }}">
               {{ post.title }}
-              <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
             </a>
           </li>
         {% endfor %}
       </ul>
-    </aside>
+    </div>
     {% endif %}
+  </div>
   </div>
 </section>

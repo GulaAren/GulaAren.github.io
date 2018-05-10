@@ -3,38 +3,29 @@ layout: base
 title: Home
 ---
 
-<section class="hero is-primary is-fullheight">
-  <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
-    <nav class="navbar is-transparent">
-      <div class="container">
-        <div id="navbarMenuHero" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item" href="{{ site.baseurl }}/blog/">Blog</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-
-  <!-- Hero content: will be in the middle -->
+<div style="background-image: url('/assets/imgs/bg.jpg');">
+<section class="hero is-fullheight bg-grad">
   <div class="hero-body">
-    <div class="container has-text-centered">
-      <h1 class="title">
-        Halo...
+    <div class="container">
+      <h1 class="title has-text-light">
+        Halo
       </h1>
-      <h2 class="subtitle">
+      <h2 class="subtitle has-text-light">
         Selamat datang!
       </h2>
+      <ul>
+        <li><h2 class="title"><a class="link-needlight" href="{{ site.baseurl }}/blog/">Blog</h2></a></li>
+      </ul>
     </div>
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
   <div class="hero-foot">
     <div class="content has-text-centered">
-      <p>
-        By <strong><a href="{{ site.github.repo }}">{{ site.author.name }}</a></strong>, licensed with <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      <p class="has-text-grey-lighter">
+        By <strong><a class="has-text-grey-lighter" href="{{ site.github.repo }}">{{ site.author.name }}</a></strong>
       </p>
     </div>
   </div>
 </section>
+</div>
