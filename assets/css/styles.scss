@@ -4,6 +4,9 @@
 
 @import 'bulma';
 
+.use-bg {
+	background-image: url('/assets/imgs/bg.jpg');
+}
 .bg-grad {
 	background-image: linear-gradient(55deg, rgba(86, 100, 173, 0.5), rgba(249, 101, 5, 0.6));
 	background-size: cover;
@@ -39,6 +42,7 @@
 }
 .highlight {
 	text-align: inherit !important;
+	margin: 1em 0 !important;
 }
 
 .transparent {

@@ -1,0 +1,62 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="use-bg">
+<section class="section bg-grad">
+  <div class="container">
+
+  {% for post in paginator.posts %}
+    <div class="box has-background-white-ter transparent">
+      <article class="media">
+        {% if page.media %}
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="{{ page.media | absolute_url }}" alt="{{ page.title }}">
+          </figure>
+        </div>
+        {% endif %}
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong>
+              <br>
+              <small>{{ post.date | date_to_string }}</small>
+              <br>
+              {{ post.excerpt }}
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  {% endfor %}
+
+  </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<section class="section">
+  <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+    {% if paginator.previous_page %}
+    <a class="pagination-previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &laquo; </a>
+    {% endif %}
+    
+    <ul class="pagination-list">
+    {% for page in (1..paginator.total_pages) %}
+      
+      <li><a class="pagination-link {% if page == paginator.page %}is-current{% endif %}"
+        aria-label="Page {{ page }}" 
+        aria-current="page" {% if page != paginator.page %}
+        href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
+        {% endif %}>{{ page }}</a></li>
+          
+    {% endfor %}
+    </ul>
+    
+    {% if paginator.next_page %}
+    <a class="pagination-next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &raquo; </a>
+    {% endif %}
+  </nav>
+</section>
+{% endif %}

@@ -1,12 +1,17 @@
 # Permalinks
-permalink:           pretty
+permalink:           "/blog/:title/"
 excerpt_separator:  <!--more-->
 # Setup
 title:               Tes Manis
 tagline:             Tes Manis Page
-url:                 https://tesmanis.github.io
-paginate:            1
+url:                 "https://tesmanis.github.io"
+paginate:            7
+paginate_path:       "/blog/:num/"
 baseurl:             ""
+highlighter:         rouge
+kramdown:
+   math_engine: mathjax
+   syntax_highlighter: rouge
 
 # Assets
 #
