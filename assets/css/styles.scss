@@ -32,19 +32,36 @@
 	text-decoration:none;
 	transition-duration: 1s;
 	-webkit-transition-duration: 1s;
-}
-.link-needlight strong {
-	color:currentColor;
+
+	strong {
+		color:currentColor;
+	}
 }
 .link-needlight:hover,
 .link-needlight:active {
 	color:hsl(0, 0%, 29%);
 }
-.highlight {
-	text-align: inherit !important;
-	margin: 1em 0 !important;
-}
 
 .transparent {
 	opacity: 0.7;
+}
+.content {
+	.highlight {
+		text-align: inherit !important;
+		margin: 1em 0 !important;
+		background-color: #f5f5f5;
+		line-height: 1.2em !important;
+
+		pre table {
+			td {
+				padding: 0;
+				pre {
+					padding: 0 1.5em;
+				}
+			}
+		}
+	}
+}
+hr {
+	border-bottom: 1px solid #eaecef;
 }

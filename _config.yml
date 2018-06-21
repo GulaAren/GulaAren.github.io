@@ -1,9 +1,9 @@
 # Permalinks
 permalink:           "/blog/:title/"
-excerpt_separator:  <!--more-->
+excerpt_separator:   <!--more-->
 # Setup
-title:               Tes Manis
-tagline:             Tes Manis Page
+title:               TesManis
+tagline:             TesManis Blog
 url:                 "https://tesmanis.github.io"
 paginate:            7
 paginate_path:       "/blog/:num/"
@@ -13,11 +13,11 @@ kramdown:
    math_engine: mathjax
    syntax_highlighter: rouge
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
 sass:
   style:             compressed
+
+plugins:
+  - jekyll-paginate
 
 # About/contact
 author:
@@ -25,13 +25,8 @@ author:
   url:               https://tesmanis.github.io
   email:             ""
 
-# Custom vars
 github:
   repo:              https://github.com/TesManis
 
 #analytics_id:        ""
 
-# Gems
-plugins:
-  - jekyll-paginate
-#  - jekyll-gist
