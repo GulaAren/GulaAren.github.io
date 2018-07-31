@@ -2,9 +2,9 @@
 permalink:           "/blog/:title/"
 excerpt_separator:   <!--more-->
 # Setup
-title:               TesManis
-tagline:             TesManis Blog
-url:                 "https://tesmanis.github.io"
+title:               GulaAren
+tagline:             GulaAren blog
+url:                 "https://GulaAren.github.io"
 paginate:            7
 paginate_path:       "/blog/:num/"
 baseurl:             ""
@@ -21,12 +21,12 @@ plugins:
 
 # About/contact
 author:
-  name:              Tes Manis
-  url:               https://tesmanis.github.io
+  name:              
+  url:               https://GulaAren.github.io
   email:             ""
 
 github:
-  repo:              https://github.com/TesManis
+  repo:              https://github.com/GulaAren
 
 #analytics_id:        ""
 
