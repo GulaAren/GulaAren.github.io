@@ -2,6 +2,11 @@
 layout: post
 title: "Pengenalan Golang + Gin: Membuat Web API Sederhana dengan"
 menutitle: Pengenalan Golang + Gin
+labels:
+ - Golang
+ - RestAPI
+categories:
+ - Golang
 ---
 
 [Gin](https://github.com/gin-gonic/gin) merupakan web framework yang dibuat dengan bahasa pemograman sedang hot yaitu Go (Golang).

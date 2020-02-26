@@ -21,9 +21,12 @@ title: Blog
           <div class="content">
             <p>
               <strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong>
-              <br>
-              <small>{{ post.date | date_to_string }}</small>
-              <br>
+              <div class="subtitle">
+                <small>{{ post.date | date_to_string }}</small>
+                {% for label in post.labels %}
+                <span class="tag is-dark">{{ label }}</span>
+                {% endfor %}
+              </div>
               {{ post.excerpt }}
             </p>
           </div>

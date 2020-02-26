@@ -1,5 +1,5 @@
 # Permalinks
-permalink:           "/blog/:title/"
+permalink:           "/blog/:title"
 excerpt_separator:   <!--more-->
 # Setup
 title:               GulaAren
@@ -9,6 +9,19 @@ paginate:            7
 paginate_path:       "/blog/:num/"
 baseurl:             ""
 highlighter:         rouge
+exclude:
+- post.bak
+- CNAME
+- README.md
+
+collections:
+  labels:
+    permalink: "/:collections/:path"
+    output: true
+  categories:
+    permalink: "/:collections/:path"
+    output: true
+
 kramdown:
    math_engine: mathjax
    syntax_highlighter: rouge

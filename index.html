@@ -3,14 +3,56 @@ layout: base
 title: Home
 ---
 
-<div style="background-image: url('/assets/imgs/bg.jpg');">
+<!-- <div style="background-image: url('/assets/imgs/bg.jpg');"> -->
 <section class="hero is-fullheight bg-grad">
   <div class="hero-body">
     <div class="container">
-      <ul>
-        <li><h2 class="title"><a class="link-needlight" href="{{ site.baseurl }}/blog/">Blog</h2></a></li>
-        <li><h2 class="title"><a class="link-needlight" href="{{ site.github.repo }}">Projects</h2></a></li>
-      </ul>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              
+              <div class="content">
+                <h4 class="title"><a href="{{ site.baseurl }}/blog/">Blog</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4 class="title"><a href="{{ site.github.repo }}">Repositories</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="https://avatars0.githubusercontent.com/u/36400180?s=400&v=4" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4 class="title"><a href="{{ site.github.repo }}">@GulaAren</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="column"></div> -->
+      </div>
     </div>
   </div>
 
@@ -18,9 +60,7 @@ title: Home
   <div class="hero-foot">
     <div class="content has-text-centered">
       <p class="has-text-grey-lighter">
-      <!--  
       By <strong><a class="has-text-grey-lighter" href="{{ site.github.repo }}">{{ site.author.name }}</a></strong>
-      -->
       </p>
     </div>
   </div>
