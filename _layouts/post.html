@@ -22,7 +22,7 @@ layout: default
   </header>
 </section>
 
-<section class="section bg-grad">
+<section class="section">
   <div class="container">
   <div class="columns">
     <div class="content content-pad column is-three-quarters  has-background-white-ter">
@@ -36,11 +36,7 @@ layout: default
         {% for post in site.related_posts limit:7 %}
           <li>
             <a href="{{ site.baseurl }}{{ post.url }}">
-            {% if post.menutitle %}
-              {{ post.menutitle }}
-            {% else %}
-              {{ post.title }}
-            {% endif %}
+            {% if post.menutitle %}{{ post.menutitle }}{% else %}{{ post.title }}{% endif %}
             </a>
           </li>
         {% endfor %}
