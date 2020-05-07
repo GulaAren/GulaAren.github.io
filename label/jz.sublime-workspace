@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Req",
+				"RequestParser"
+			],
+			[
+				"id",
+				"id_en\tstatement"
+			],
+			[
+				"file",
+				"fields\tmodule"
+			],
+			[
+				"fe",
+				"fields\tmodule"
+			],
+			[
+				"au",
+				"authentication"
+			],
+			[
+				"Auth",
+				"Authentication"
+			],
+			[
+				"init",
+				"init_app"
+			],
+			[
+				"Re",
+				"Redis"
+			],
+			[
+				"RED",
+				"REDIS_DB"
+			],
+			[
+				"pa",
+				"payloads"
+			],
+			[
+				"get",
+				"get_mobile_transaction"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"tra",
+				"transaction_id"
+			],
+			[
+				"req",
+				"requests"
+			],
+			[
+				"cli",
+				"client"
+			],
+			[
+				"statu",
+				"status_code"
+			],
+			[
+				"pr",
+				"product_id"
+			],
+			[
+				"co",
+				"customer_number"
+			],
+			[
+				"BAS",
+				"BASE_URL"
+			],
+			[
+				"url",
+				"url_prefix"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"ver",
+				"verified"
+			],
+			[
+				"se",
+				"send_kode"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"al",
+				"alertOnMe"
+			],
+			[
+				"re",
+				"redis_get"
+			],
+			[
+				"rand",
+				"rand_kode"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"ran",
+				"rand_kode"
+			],
+			[
+				"in",
+				"inp_redist"
+			],
+			[
+				"ra",
+				"rand_kode"
+			],
+			[
+				"va",
+				"validate_on_submit"
+			],
+			[
+				"Subm",
+				"SubmitForm"
+			],
+			[
+				"sub",
+				"submitData"
+			],
+			[
+				"Fla",
+				"FlaskRedis"
+			],
+			[
+				"c",
+				"config"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"log",
+				"logged_in"
+			],
+			[
+				"r",
+				"route"
+			],
+			[
+				"ch",
+				"check_password_hash"
+			],
+			[
+				"_",
+				"__name__"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/sagala/Desktop/jgio/_data/tutorials.yml",
+			"settings":
+			{
+				"buffer_size": 202,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sagala/Desktop/jgio/_tutorials/flask/persiapan.md",
+			"settings":
+			{
+				"buffer_size": 53,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Method"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sagala/Desktop/jgio",
+		"/home/sagala/Desktop/jgio/_includes",
+		"/home/sagala/Desktop/jgio/_tutorials",
+		"/home/sagala/Desktop/jgio/_tutorials/flask"
+	],
+	"file_history":
+	[
+		"/home/sagala/Desktop/jgio/_tutorials/index.md",
+		"/home/sagala/Desktop/jgio/_includes/section_nav_tutorials.html",
+		"/home/sagala/Desktop/jgio/_includes/tutorials_contents_mobile.html",
+		"/home/sagala/Desktop/jgio/_includes/primary-nav-items.html",
+		"/home/sagala/Desktop/jgio/_data/tutorials.yml",
+		"/home/sagala/Desktop/jgio/_sass/_style.scss",
+		"/home/sagala/clone/starlette/setup.py",
+		"/home/sagala/Desktop/jgio/_includes/mobile-nav-items.html",
+		"/home/sagala/Desktop/jgio/_includes/header.html",
+		"/home/sagala/clone/starlette/starlette/responses.py",
+		"/home/sagala/Desktop/jgio/_includes/news_item.html",
+		"/home/sagala/Desktop/jgio/readme.md",
+		"/home/sagala/Desktop/jgio/index.html",
+		"/home/sagala/Desktop/jgio/_posts/2019-01-09-rilis.md",
+		"/home/sagala/Desktop/jekil/tentang/pengantar.md",
+		"/home/sagala/Desktop/jekil/_posts/2019-05-28-hello-world.md",
+		"/home/sagala/Desktop/jekil/_posts/2019-01-09-rilis.md",
+		"/home/sagala/Desktop/jekil/_data/tutorials.yml",
+		"/home/sagala/Desktop/jekil/index.html",
+		"/home/sagala/Desktop/jekil/_includes/primary-nav-items.html",
+		"/home/sagala/Desktop/jekil/_includes/mobile-nav-items.html",
+		"/home/sagala/Desktop/jekil/_tutorials/index.md",
+		"/home/sagala/Desktop/jekil/_docs/index.md",
+		"/home/sagala/Desktop/jekil/_config.yml",
+		"/home/sagala/Desktop/jekil/_includes/news_item.html",
+		"/home/sagala/Desktop/jekil/about/index.md",
+		"/mnt/code/Repo/ga/GulaAren.github.io/label/index.html",
+		"/mnt/code/Repo/ga/GulaAren.github.io/draft/2019-03-07-autentikasi-http-dengan-requests.md",
+		"/mnt/code/Repo/ga/GulaAren.github.io/_config.yml",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-inquiry-request.json",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-trans-resp-non_multi.json",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-trans-req-non_multi.json",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-trans-req-empty.json",
+		"/home/sagala/Visio/bca_mocks/app/va/api.py",
+		"/home/sagala/Visio/bca_mocks/app/va/models.py",
+		"/home/sagala/Visio/bca_mocks/.env",
+		"/home/sagala/Visio/bca_mocks/app/__init__.py",
+		"/home/sagala/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-inquiry-resp_error.json",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-trans-resp_error-empty.json",
+		"/home/sagala/Kode/flask/flazk/app/auth/api.py",
+		"/home/sagala/Kode/flask/flazk/app/config.py",
+		"/home/sagala/Kode/flask/flazk/app/__init__.py",
+		"/home/sagala/Kode/flask/flazk/run.py",
+		"/home/sagala/Visio/bca_mocks/jsonf/bills-trans-resp-empty.json",
+		"/home/sagala/Kode/flask/flazk/broker/utils.py",
+		"/home/sagala/Kode/flask/flazk/broker/br_server.py",
+		"/home/sagala/Kode/flask/flazk/deploy-vhost.conf",
+		"/home/sagala/Kode/flask/flazk/deploy.wsgi",
+		"/home/sagala/Visio/w_sepulsa/pb_server.py",
+		"/home/sagala/Kode/flask/flazk/app/auth/models.py",
+		"/home/sagala/Kode/flask/flazk/app/auth/__init__.py",
+		"/home/sagala/Visio/ns_api/app/pulsa/task.py",
+		"/home/sagala/Visio/nusasms-api/app/main/services/operator.py",
+		"/home/sagala/Visio/nusasms-api/app/main/utils/dto.py",
+		"/mnt/code/flask_app/restplus-example/app/__init__.py",
+		"/mnt/code/flask_app/restplus-example/config.py",
+		"/home/sagala/Visio/ns_worker/nusasms/utils/interfaces.py",
+		"/home/sagala/Visio/ns_worker/nusasms/service/base.py",
+		"/home/sagala/Visio/ns_worker/nusasms/service/services/client_test.py",
+		"/home/sagala/Visio/ns_worker/nusasms/service/services/ngatedlr.py",
+		"/home/sagala/.config/sublime-text-3/Packages/User/toggle-readonly.sublime-settings",
+		"/home/sagala/.config/sublime-text-3/Packages/Toggle Read-Only/toggle-readonly.sublime-settings",
+		"/mnt/code/flask_app/restplus-example/app/modules/auth/resources.py",
+		"/mnt/code/flask_app/restplus-example/app/modules/auth/__init__.py",
+		"/mnt/code/flask_app/restplus-example/tests/modules/auth/conftest.py",
+		"/mnt/code/flask_app/restplus-example/tests/modules/auth/test_login_manager_integration.py",
+		"/home/sagala/Visio/nusasms-api/app/main/controllers/operator.py",
+		"/home/sagala/Visio/nusasms-api/app/main/controllers/person.py",
+		"/home/sagala/Visio/sepulsa/service.py",
+		"/mnt/code/flask_app/restplus-example/app/modules/__init__.py",
+		"/mnt/code/flask_app/microblog/app/models.py",
+		"/mnt/code/flask_app/microblog/app/cli.py",
+		"/mnt/code/flask_app/microblog/app/__init__.py",
+		"/mnt/code/py/flask-login/flask_login/mixins.py",
+		"/mnt/data/_Neo/testmanis/inspira/MDB/Ecommerce-Template-Bootstrap/home-page.html",
+		"/home/sagala/Kode/_bahan/MDB-Free_4.5.10/index.html",
+		"/mnt/data/_Neo/testmanis/inspira/MDB/Landing-page-Template-Bootstrap/form.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/flask-base/app/templates/account/login.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/flask-base/app/templates/main/index.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/flask-base/app/templates/layouts/base.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/flask-base/app/templates/partials/_head.html",
+		"/mnt/data/_Neo/testmanis/repo/sharelinks/templates/base.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/basicauth/apps/templates/auth/login.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/basicauth/apps/templates/base.html",
+		"/mnt/data/_Neo/testmanis/kode/flask_apps/basicauth/apps/templates/home.html",
+		"/mnt/data/_Neo/testmanis/repo/first-flaskapp-docker/templates/index.html",
+		"/mnt/code/py/flask/flask/app.py",
+		"/mnt/code/py/flask/examples/tutorial/tests/conftest.py",
+		"/mnt/code/py/flask-login/flask_login/login_manager.py",
+		"/mnt/code/py/flask/examples/tutorial/flaskr/auth.py",
+		"/home/sagala/Kode/py/visio/templates/daftar.html",
+		"/home/sagala/Kode/py/visio/templates/fail.html",
+		"/home/sagala/Kode/py/visio/app.py",
+		"/home/sagala/Kode/py/rabbit/worker.py",
+		"/home/sagala/Kode/py/rabbit/new_task.py",
+		"/home/sagala/Kode/py/visio/cleaner.py",
+		"/home/sagala/Kode/py/visio/worker.py",
+		"/home/sagala/Kode/py/visio/tester.sh",
+		"/home/sagala/Kode/ajax/ajax1.py",
+		"/home/sagala/Kode/py/redis/coba_redis.py",
+		"/home/sagala/Kode/py/rabbit/send.py",
+		"/home/sagala/Kode/py/visio/templates/submit.html",
+		"/home/sagala/Kode/py/visio/form.py",
+		"/home/sagala/Kode/py/visio/success.html",
+		"/home/sagala/Kode/py/visio2/visio/visio/settings.py",
+		"/home/sagala/Kode/py/visio/templates/base.html",
+		"/home/sagala/Kode/py/rabbit/recv.py",
+		"/home/sagala/Kode/py/rabbit/send_msg.sh",
+		"/home/sagala/Kode/py/portf/app/accounts/models.py",
+		"/home/sagala/Kode/py/portf/app/__init__.py",
+		"/home/sagala/Kode/py/portf/app/accounts/views.py",
+		"/home/sagala/Kode/py/portf/app/accounts/form.py",
+		"/home/sagala/Kode/py/portf/app/templates/accounts/signin.html",
+		"/home/sagala/Kode/py/portf/app/templates/accounts/signup.html",
+		"/home/sagala/Kode/py/portf/templates/404.html",
+		"/home/sagala/Kode/py/portf/run.py",
+		"/home/sagala/Kode/py/portf/config.py",
+		"/home/sagala/Kode/py/portf/app/templates/accounts/profile.html",
+		"/opt/temp/sharelinks/account/views.py",
+		"/home/sagala/Kode/py/portf/app/accounts/__init__.py",
+		"/home/sagala/Kode/py/portf/requirements.txt",
+		"/home/sagala/Kode/py/portf/requirements-dev.txt",
+		"/home/sagala/Kode/py/portf/note.md",
+		"/opt/temp/coba/run.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"a {",
+			"ff4545",
+			"a {",
+			"c00",
+			"c30000",
+			"cd5c5c",
+			"fc0",
+			",     #",
+			"parser_bills",
+			"postgres",
+			"POSTGRES",
+			":",
+			"costumer_number",
+			"costum",
+			"pytest",
+			"exists_on_redis"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/sagala/Desktop/jgio/_data/tutorials.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/sagala/Desktop/jgio/_tutorials/flask/persiapan.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jz.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/visio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,14 +1,14 @@
 # Permalinks
-permalink:           "/blog/:title"
-excerpt_separator:   <!--more-->
+permalink:          "/blog/:title"
+excerpt_separator:  <!--more-->
 # Setup
-title:               GulaAren
-tagline:             GulaAren blog
-url:                 "https://GulaAren.github.io"
-paginate:            7
-paginate_path:       "/blog/:num/"
-baseurl:             ""
-highlighter:         rouge
+title:              GulaAren
+tagline:            GulaAren blog
+url:                "https://GulaAren.github.io"
+paginate:           7
+paginate_path:      "/blog/:num/"
+baseurl:            ""
+highlighter:        rouge
 exclude:
 - post.bak
 - CNAME
@@ -27,19 +27,48 @@ kramdown:
    syntax_highlighter: rouge
 
 sass:
-  style:             compressed
+  style:            compressed
 
 plugins:
   - jekyll-paginate
 
 # About/contact
 author:
-  name:              GulaAren
-  url:               https://GulaAren.github.io
-  email:             ""
-
+  name:             GulaAren
+  url:              https://GulaAren.github.io
+  email:            ""
+  avatar:           https://avatars0.githubusercontent.com/u/36400180?s=400&v=4
+  
 github:
-  repo:              https://github.com/GulaAren
+  repo:             https://github.com/GulaAren
+
+py_tools:
+  -
+    - Flask
+    - https://flask.palletsprojects.com
+  -
+    - FastAPI
+    - https://fastapi.tiangolo.com
+  -
+    - Starlette
+    - https://www.starlette.io
+  -
+    - SQLAlchemy
+    - https://docs.sqlalchemy.org
+  -
+    - Twisted
+    - https://twistedmatrix.com/trac/
+
+rs_tools:
+  -
+    - Rust
+    - https://www.rust-lang.org
+
+more_tools:
+  -
+    - Redis
+    - https://redis.io
+
 
 #analytics_id:        ""
 

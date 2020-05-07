@@ -3,7 +3,6 @@ layout: base
 title: Home
 ---
 
-<!-- <div style="background-image: url('/assets/imgs/bg.jpg');"> -->
 <section class="hero is-fullheight bg-grad">
   <div class="hero-body">
     <div class="container">
@@ -11,12 +10,11 @@ title: Home
         <div class="column">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              <figure class="image is-4by4">
+                <img src="/assets/imgs/bg.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
-              
               <div class="content">
                 <h4 class="title"><a href="{{ site.baseurl }}/blog/">Blog</a></h4>
               </div>
@@ -25,14 +23,30 @@ title: Home
         </div>
         <div class="column">
           <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-              </figure>
-            </div>
             <div class="card-content">
               <div class="content">
-                <h4 class="title"><a href="{{ site.github.repo }}">Repositories</a></h4>
+                <h4 class="title">Python</h4>
+                {% if site.py_tools %}
+                {% for tool in site.py_tools %}
+                  <a href="{{ tool[1] }}"><span class="tag is-link">{{ tool[0] }}</span></a>
+                {% endfor %}
+                {% endif %}
+              </div>
+              <div class="content">
+                <h4 class="title">Rust</h4>
+                {% if site.rs_tools %}
+                {% for tool in site.rs_tools %}
+                  <a href="{{ tool[1] }}"><span class="tag is-link">{{ tool[0] }}</span></a>
+                {% endfor %}
+                {% endif %}
+              </div>
+              <div class="content">
+                <h4 class="title">More</h4>
+                {% if site.more_tools %}
+                {% for tool in site.more_tools %}
+                  <a href="{{ tool[1] }}"><span class="tag is-link">{{ tool[0] }}</span></a>
+                {% endfor %}
+                {% endif %}
               </div>
             </div>
           </div>
@@ -41,7 +55,7 @@ title: Home
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="https://avatars0.githubusercontent.com/u/36400180?s=400&v=4" alt="Placeholder image">
+                <img src="{{ site.author.avatar }}" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -53,15 +67,6 @@ title: Home
         </div>
         <!-- <div class="column"></div> -->
       </div>
-    </div>
-  </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
-    <div class="content has-text-centered">
-      <p class="has-text-grey-lighter">
-      By <strong><a class="has-text-grey-lighter" href="{{ site.github.repo }}">{{ site.author.name }}</a></strong>
-      </p>
     </div>
   </div>
 </section>
