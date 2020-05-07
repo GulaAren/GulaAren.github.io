@@ -15,19 +15,17 @@ title: Home
             </div>
             <div class="card-content">
               <div class="content">
-                <ul>
-                  {% for post in site.posts limit:7 %}
-                  <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                    {% if post.menutitle %}
-                      {{ post.menutitle }}
-                    {% else %}
-                      {{ post.title }}
-                    {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
+                {% for post in site.posts limit:7 %}
+                <h6>
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                  {% if post.menutitle %}
+                    {{ post.menutitle }}
+                  {% else %}
+                    {{ post.title }}
+                  {% endif %}
+                  </a>
+                </h6>
+                {% endfor %}
               </div>
             </div>
             <div class="card-content">

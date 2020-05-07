@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pengenalan Golang + Gin: Membuat Web API Sederhana dengan"
+title: "Pengenalan Golang + Gin: Membuat Web API Sederhana"
 menutitle: Pengenalan Golang + Gin
 labels:
  - Golang
