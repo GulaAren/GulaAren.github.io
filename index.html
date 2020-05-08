@@ -11,27 +11,39 @@ title: Home
         <div class="column">
           <div class="card">
             <div class="card-header">
-              <h4 class="card-header-title">Post</h4>
+              <h4 class="card-header-title">Repository</h4>
+            </div>
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="{{ site.author.avatar }}" alt="Placeholder image">
+              </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                {% for post in site.posts limit:7 %}
-                <h6>
-                  <a href="{{ site.baseurl }}{{ post.url }}">
-                  {% if post.menutitle %}
-                    {{ post.menutitle }}
-                  {% else %}
-                    {{ post.title }}
-                  {% endif %}
-                  </a>
-                </h6>
-                {% endfor %}
+                <h4 class="title"><a href="{{ site.github.repo }}">@GulaAren</a></h4>
               </div>
             </div>
-            <div class="card-content">
-              <h4 class="card-header-title"><a href="{{ site.baseurl }}/blog/">Blog</a></h4>
-            </div>
           </div>
+        </div>
+        <div class="column">
+          <nav class="card panel is-primary">
+            <p class="panel-heading">Post</p>
+            <div class="panel-block">
+              {% for post in site.posts limit:7 %}
+              <span class="panel-icon">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </span>
+              <a href="{{ site.baseurl }}{{ post.url }}">
+              {% if post.menutitle %}
+                {{ post.menutitle }}
+              {% else %}
+                {{ post.title }}
+              {% endif %}
+              </a>
+              {% endfor %}
+            </div>
+            <h4 class="panel-heading"><a href="{{ site.baseurl }}/blog/">Go to Blog</a></h4>
+          </nav>
         </div>
         <div class="column">
           <div class="card">
@@ -40,7 +52,7 @@ title: Home
             </div>
             <div class="card-content">
               <div class="content">
-                <h4 class="title">Python</h4>
+                <h4 class="title"><i class="fab fa-python" aria-hidden="true"></i> Python</h4>
                 {% if site.py_tools %}
                 {% for tool in site.py_tools %}
                   <a href="{{ tool[1] }}"><span class="tag is-link">{{ tool[0] }}</span></a>
@@ -66,24 +78,6 @@ title: Home
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-header">
-              <h4 class="card-header-title">Repository</h4>
-            </div>
-            <div class="card-image">
-              <figure class="image is-4by4">
-                <img src="{{ site.author.avatar }}" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                <h4 class="title"><a href="{{ site.github.repo }}">@GulaAren</a></h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="column"></div> -->
       </div>
     </div>
   </div>
