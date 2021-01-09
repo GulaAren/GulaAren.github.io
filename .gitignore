@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 draft/
 post.bak/
+.directory
 .jekyll-metadata
 *.bak
 *.note

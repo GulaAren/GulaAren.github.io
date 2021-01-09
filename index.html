@@ -28,8 +28,8 @@ title: Home
         <div class="column">
           <nav class="card panel is-primary">
             <p class="panel-heading">Post</p>
+            {% for post in site.posts limit:7 %}
             <div class="panel-block">
-              {% for post in site.posts limit:7 %}
               <span class="panel-icon">
                 <i class="fa fa-link" aria-hidden="true"></i>
               </span>
@@ -40,8 +40,8 @@ title: Home
                 {{ post.title }}
               {% endif %}
               </a>
-              {% endfor %}
             </div>
+            {% endfor %}
             <h4 class="panel-heading"><a href="{{ site.baseurl }}/blog/">Go to Blog</a></h4>
           </nav>
         </div>

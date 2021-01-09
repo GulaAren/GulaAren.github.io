@@ -13,6 +13,7 @@ exclude:
 - post.bak
 - CNAME
 - README.md
+- .directory
 
 collections:
   labels:
