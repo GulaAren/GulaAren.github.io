@@ -4,7 +4,7 @@ excerpt_separator:  <!--more-->
 # Setup
 title:              GulaAren
 tagline:            GulaAren blog
-url:                "https://GulaAren.github.io"
+url:                "https://GulaAren.somalna.com"
 paginate:           7
 paginate_path:      "/blog/:num/"
 baseurl:            ""
@@ -36,7 +36,7 @@ plugins:
 # About/contact
 author:
   name:             GulaAren
-  url:              https://GulaAren.github.io
+  url:              https://GulaAren.somalna.com
   email:            ""
   avatar:           https://avatars0.githubusercontent.com/u/36400180?s=400&v=4
   

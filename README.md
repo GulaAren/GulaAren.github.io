@@ -1,4 +1,4 @@
-# [GulaAren.github.io](https://GulaAren.github.io)
+# [GulaAren.somalna.com](https://gulaaren.somalna.com)
 
 Jekyll theme: [Tarbulma](https://github.com/GulaAren/Tarbulma)
 
