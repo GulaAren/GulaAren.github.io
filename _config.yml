@@ -10,10 +10,12 @@ paginate_path:      "/blog/:num/"
 baseurl:            ""
 highlighter:        rouge
 exclude:
+- index.html.bak
 - post.bak
 - CNAME
 - README.md
 - .directory
+- note.note
 
 collections:
   labels:

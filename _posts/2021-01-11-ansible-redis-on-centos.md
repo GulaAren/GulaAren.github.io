@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Redis Installation on Centos Using Ansible
-menutitle: Redis Installation on Centos Using Ansible
+title: Redis Installation on CentOS Using Ansible
+menutitle: CentOS Redis Install Using Ansible
 kategori:
   - ansible
   - server
