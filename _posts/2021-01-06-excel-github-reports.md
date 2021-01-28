@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Your Github Report (Using Python to Write Excel File)
-menutitle: Using Python to Write XLSX file
+title: Python Github Report Web Scraper and Excel File Result
+menutitle: Python Web Scraper
 kategori:
   - python
   - data
